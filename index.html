@@ -3,135 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <title>Online Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="container-fluid">
 
-  <!--  nav bor  -->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="https://www.linkedin.com/in/brandon-jacks-3ab4b6294/" target='_blank'>Brandon Jacks</a>
+      <a class="navbar-brand" href="https://www.linkedin.com/in/brandon-jacks-3ab4b6294/" target='_blank'>Welcome to The Gamezone</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
-<!--           <li class="nav-item">
-            <a class="nav-link" href="#">Foxtrot Story Card</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/Bjacks01/FoxtrotLab">See the Code</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbjacks01.github.io%2FFoxtrotLab%2F#textarea"
-            target="_blank">Check this page's validation</a>
-          </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Authors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+        </div>
+      </li>
         </ul>
       </div>
     </div>
   </nav>
 
-<!-- Side navigation -->
-<div class="sidebar">
-  <img id='myPic' src='https://cdn.discordapp.com/attachments/328378833705107457/1159254472799834132/IMG_6255.png?ex=65305adc&is=651de5dc&hm=96233941cf546ea20b952f4fcb19edeef24c11fe54da9371aee56e064c7a08e3&'
-  alt="Picture of Brandon Jacks" width= 200>
-  <a class="active" href="https://gist.github.com/barrycumbie/de4aa0fcb0cad79a870305240d726cd0" target="_blank">
-    CIS-376 Lauch Page</a>
-  <a href="https://www.linkedin.com/in/brandon-jacks-3ab4b6294/" target="_blank">
-    LinkedIn</a>
-  <a href="https://www.instagram.com/brandon_jacks_/?igshid=NGVhN2U2NjQ0Yg%3D%3D" target="_blank">Instagram</a>
-  <span>
-    Phone:<br>931-625-5601
-  </span>
+<div id="cardHolder" class='container'>
+  
 </div>
-
-<!-- Page content -->
-<div class="content">
-  <div class="container">
-    <div id="titleBar" class="col-md-8 offset-md-2 text-center rounded">
-      <h1>Portfolio</h1>
-  </div>
+<footer class="footer">
+  <div class="container bottom_border">
   <div class="row">
-    <div class="col-sm mx-auto">
-      <div class="card" style="width: 18rem;" >
-<!--   <img class="card-img-top" src="..." alt="Card image cap"> -->
-  <div class="card-body">
-    <h3 class="card-title">Skills</h3>
-    <p class="card-text">My current dev skills include:</p>
+  <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Class Info</h5>
+  <!--headin5_amrc-->
+  <p class="mb10">CIS 376 is a web design course taught at the University of North Alabama by Dr. Barry Cumbie in room 220 of Keller Hall. He's great at teaching, but man, he's got some cool footer templates.</p>
+  <p>Keller Hall in Room 220</p>
+  <p> bcumbie@una.edu </p>
+  
+  
   </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">Python</li>
-    <li class="list-group-item">HTML:5</li>
-    <li class="list-group-item">CSS</li>
-    <li class="list-group-item">Javascript</li>
-    <li class="list-group-item">JQuery</li>
-    <li class="list-group-item">Bootstrap 5</li>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+  <!--headin5_amrc-->
+  <ul class="footer_ul_amrc">
+  <li><a href="https://gist.github.com/barrycumbie/de4aa0fcb0cad79a870305240d726cd0" target="_blank"> Class Page</a></li>
+  <li><a href="https://github.com/Bjacks01" target="_blank">Brandon Jacks' GitHub</a></li>
+  <li><a href="http://www.github.com/mjohnson7cd" target="_blank">Johnny GitHub</a></li>
   </ul>
-  <div class="card-body">
-    <a href="https://github.com/Bjacks01" target="_blank" class="card-link">Connect with me on GitHub!</a>
+  <!--footer_ul_amrc ends here-->
   </div>
-</div>
-    </div>
-    <div class="col-sm mx-auto">
-      <div class="card" style="width: 18rem;">
-<!--   <img class="card-img-top" src="..." alt="Card image cap"> -->
-  <div class="card-body">
-    <h3 class="card-title">Project Links</h3>
-    <p class="card-text">Projects I have completed while in school:</p>
-  </div>
- 
-  <div class="card-body">
-     <ul class="list-group list-group-flush">
-    <li class="list-group-item">
-      <a href="https://github.com/Bjacks01/pythonApps" target="_blank">Python Games</a>
-    </li>
-    <li class="list-group-item">
-      <a href="https://github.com/Bjacks01/BrandoCharlieReal" target="_blank">Web Design Charlie Lab</a>
-    </li>
-    <li class="list-group-item">
-      <a href="https://github.com/Bjacks01/BrandoDeltaReal" target="_blank">Web Design Delta Lab</a>
-    </li>
-    <li class="list-group-item">
-      <a href="https://github.com/Bjacks01/brandoEcho" target="_blank">Web Design Echo Lab</a>
-    </li>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2">Behind The Scenes</h5>
+  <!--headin5_amrc-->
+  <ul class="footer_ul_amrc">
+  <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fvalidator.w3.org%2Fcheck%3Furi%3Dhttp%253A%252F%252Fbarrycumbie.github.io%252Flegendary-waddle%252Findex.html%26charset%3D%2528detect%2Bautomatically%2529%26doctype%3DInline%26group%3D0" target="_blank">Page Validity</a></li> 
+  <li><a href="http://www.github.com/barrycumbie/legendary-waddle" target="_blank">See The Code</a></li>
+  <br>
   </ul>
+  <!--footer_ul_amrc ends here-->
   </div>
-</div>
-    </div>
-    <div class="col-sm mx-auto">
-      <div class="card" style="width: 18rem;">
-<!--   <img class="card-img-top" src="..." alt="Card image cap"> -->
-  <div class="card-body">
-    <h3 class="card-title">Additional Info</h3>
-  </div>
-  <div class="card-body">
-    <span>Some of my certifications include:</span>
-    <ul>
-      <li>Microsoft Excel</li>
-      <li>Microsoft Word</li>
-      <li>(imagine there are more certifications here, I'm working on it)</li>
-    </ul>
-  </div>
-<!--   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
-</div>
-    </div>
+  
+  
+  <div class="container">
+  <ul class="foote_bottom_ul_amrc">
+  
+  </ul>
+  <!--foote_bottom_ul_amrc ends here-->
+  <p class="text-center">Copyright @2023 | <a href="https://www.una.edu" target="_blank">University of North Alabama</a></p>  
+</footer>
 
-    
-<!--Takes you to the top of the page - useful for mobile devices and small screens-->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-  </div>
-</div>
-</div>
-</div>
-
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-iconpicker/1.10.0/js/bootstrap-iconpicker.min.js'></script><script  src="scripts/script.js"></script>
-
-</body>
-</html>
+<script  src="scripts/script.js"></script>
